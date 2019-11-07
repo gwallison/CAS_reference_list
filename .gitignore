@@ -1,0 +1,5 @@
+*.zip
+*.pyc
+.ipynb_checkpoints/*.*
+sources/CAS_ref_files/*.*
+out/*.*
