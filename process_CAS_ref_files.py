@@ -59,7 +59,7 @@ def processFile(fn,ref_dict):
         whole = f.read()
     # make sure it looks like the correct format
     if whole[:12]!='START_RECORD':
-        print(f'Looks like file: {fn} may not be "quoted" format!')
+        print(f'Looks like file: {fn} may not be "tagged" format!')
         print(whole[:15])
         print('ignored...')
         return ref_dict
